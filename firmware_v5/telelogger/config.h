@@ -80,15 +80,15 @@
 #ifndef ENABLE_WIFI
 #define ENABLE_WIFI 1
 // WiFi settings
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
+#define WIFI_SSID "New_Wepa"
+#define WIFI_PASSWORD "4lui$use0nly!"
 #endif 
 
 #ifndef SERVER_HOST
 // cellular network settings
-#define CELL_APN ""
+#define CELL_APN "hologram"
 // Freematics Hub server settings
-#define SERVER_HOST "hub.freematics.com"
+#define SERVER_HOST "46.110.137.54"
 #define SERVER_PROTOCOL PROTOCOL_UDP
 #endif
 
@@ -103,7 +103,7 @@
 #if !SERVER_PORT
 #undef SERVER_PORT
 #if SERVER_PROTOCOL == PROTOCOL_UDP
-#define SERVER_PORT 8081
+#define SERVER_PORT 5170
 #else
 #define SERVER_PORT 443
 #endif
