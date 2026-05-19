@@ -78,7 +78,7 @@
 * Networking configurations
 **************************************/
 #ifndef ENABLE_WIFI
-#define ENABLE_WIFI 1
+#define ENABLE_WIFI 0
 // WiFi settings
 #define WIFI_SSID "New_Wepa"
 #define WIFI_PASSWORD "4lui$use0nly!"
